@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MATHKIK" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">#079FAB</item>
+        <item name="colorPrimaryVariant">#012C4E</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="colorSecondary">#04565C</item>
+        <item name="colorSecondaryVariant">#38DAE6</item>
+        <item name="colorOnSecondary">#000000</item>
+
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.MATHKIK" parent="Base.Theme.MATHKIK" />
+</resources>
